@@ -14,3 +14,5 @@ Usage
     > Random.beers
     > Random.beers(5)
     > Time.now.beer?
+
+![Example](https://github.com/mutru/beers/raw/master/beersrb.png)
