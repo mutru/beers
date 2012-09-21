@@ -22,6 +22,8 @@ class Fixnum
       print_pack(2, 6)
     elsif self == 24
       print_pack(4, 6)
+    elsif self == 30
+      print_pack(5, 6)
     else
       raise BeerError.new
     end
