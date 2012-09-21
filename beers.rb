@@ -20,6 +20,8 @@ class Fixnum
       print_pack(2, 3)
     elsif self == 12
       print_pack(2, 6)
+    elsif self == 18
+      print_pack(3, 6)
     elsif self == 24
       print_pack(4, 6)
     elsif self == 30
