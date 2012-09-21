@@ -13,6 +13,8 @@ Usage
     > 5.beers.compact
     > Random.beers
     > Random.beers(5)
+    > 6.pack
+    > 24.pack
     > Time.now.beer?
 
 ![Example](https://github.com/mutru/beers/raw/master/beersrb.png)
