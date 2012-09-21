@@ -61,8 +61,14 @@ class String
 end
 
 class Random
-  def self.beers(amount = 100)
-    rand(amount).beers
+  def self.beers(num = nil)
+    # if you know the upper limit, you'll always want the maximum
+    # number of beers, anyway
+    if num
+      num.ceil - 1
+    else
+      rand(100)
+    end.beers
   end
 end
 
